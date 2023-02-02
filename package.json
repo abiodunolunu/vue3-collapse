@@ -1,6 +1,6 @@
 {
-  "name": "vue3-collapser",
-  "version": "0.0.0",
+  "name": "vue3-collapse",
+  "version": "0.0.18",
   "license": "MIT",
   "description": "A Vue 3 custom hook for creating a collapsible element with height transition and optional opacity transition. This uses the `MutationObserver` API to observe changes to the target element and updates its height and opacity as needed. It also sets up event listeners for the `resize` event to ensure the collapsing effect is responsive to window changes.",
   "type": "module",
@@ -18,18 +18,13 @@
     "dist"
   ],
   "keywords": [
+    "vue",
     "Vue 3",
     "Vue.js 3",
-    "Vue 3 custom hooks",
-    "Vue 3 collapsing effect",
-    "Vue 3 transitions",
-    "Vue 3 element height",
-    "Vue 3 max-height",
-    "Vue 3 opacity",
-    "Vue 3 dynamic content",
-    "Vue 3 responsive design",
-    "Vue 3 window resize",
-    "Vue 3 event listeners"
+    "vue-component",
+    "vue-collapse",
+    "collapse",
+    "Vue 3 collapsing effect"
   ],
   "repository": {
     "type": "git",
