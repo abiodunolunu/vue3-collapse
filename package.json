@@ -1,0 +1,57 @@
+{
+  "name": "vue3-collapser",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "A Vue 3 custom hook for creating a collapsible element with height transition and optional opacity transition. This uses the `MutationObserver` API to observe changes to the target element and updates its height and opacity as needed. It also sets up event listeners for the `resize` event to ensure the collapsing effect is responsive to window changes.",
+  "type": "module",
+  "main": "./dist/vue3-collapse.umd.cjs",
+  "module": "./dist/vue3-collapse.js",
+  "unpkg": "./dist/vue3-collapse.iife.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/vue3-collapse.js",
+      "require": "./dist/vue3-collapse.umd.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "Vue 3",
+    "Vue.js 3",
+    "Vue 3 custom hooks",
+    "Vue 3 collapsing effect",
+    "Vue 3 transitions",
+    "Vue 3 element height",
+    "Vue 3 max-height",
+    "Vue 3 opacity",
+    "Vue 3 dynamic content",
+    "Vue 3 responsive design",
+    "Vue 3 window resize",
+    "Vue 3 event listeners"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abiodunolunu/vue3-collapse"
+  },
+  "bugs": {
+    "email": "abiodunolunu@gmail.com"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@rollup/plugin-terser": "^0.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0",
+    "vite-plugin-dts": "^1.7.2",
+    "vue": "^3.2.45",
+    "vue-tsc": "^1.0.11"
+  }
+}
