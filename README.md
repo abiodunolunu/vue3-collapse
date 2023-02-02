@@ -75,12 +75,16 @@ app.mount("#app");
 
 `<vue3-collapse v-model="open"/>`.
 
-# Props
+## Props
 
-- modelValue (required): The value to be passed as v-model
-- duration (optional): The duration of the animation in milliseconds (defaults to 500ms)
-- withOpacity (optional): Whether to include an opacity animation (defaults to true)
-- easing (optional): The easing function to be applied to the animation (defaults to linear)
+| Prop                   | Description                                            | Type             | Default |
+| ---------------------- | ------------------------------------------------------ | ---------------- | ------- |
+| modelValue (required)  | The value to be passed as v-model, should be a boolean | Boolean          | N/A     |
+| duration (optional)    | The duration of the animation in milliseconds          | String Or Number | 500     |
+| withOpacity (optional) | Whether to include an opacity animation                | Boolean          | True    |
+| easing (optional)      | The easing function to be applied to the animation     | String           | linear  |
+
+**Note**: The available easing options are listed in a separate table below.
 
 The value of the easing prop can be options (on the left)
 
