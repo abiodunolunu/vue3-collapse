@@ -86,7 +86,7 @@ app.mount("#app");
 
 **Note**: The available easing options are listed in a separate table below.
 
-The value of the easing prop can be options (on the left)
+The value of the easing prop can be any of these options (on the left)
 
 | Option         | Easing function                     |
 | -------------- | ----------------------------------- |
