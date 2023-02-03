@@ -31,20 +31,19 @@ app.component("vue3-collapse", vue3Collapse);
 ```
 
 then use it this in your component:
+
 `<vue3-collapse />`
 
 Alternatively, you can use it directly:
 
-````vue
+```vue
 <!-- your-component.vue -->
 
-```vue
 <template>
   <vue3-collapse v-model="open">
-    <component-to-collapse />
+    <content-to-collapse />
   </vue3-collapse>
 </template>
-````
 
 <script>
 import { defineComponent } from "vue";
@@ -56,15 +55,14 @@ export default defineComponent({
   },
 });
 </script>
-
-````
+```
 
 ### Browser with CDN
 
 ```html
 <script src="https://unpkg.com/vue"></script>
 <script src="https://unpkg.com/vue3-collapse"></script>
-````
+```
 
 ```javascript
 const { createApp } = Vue;
@@ -80,7 +78,7 @@ app.mount("#app");
 
 ```vue
 <vue3-collapse v-model="open">
-    <component-to-collapse />
+    <content-to-collapse />
 </vue3-collapse>
 ```
 
@@ -90,7 +88,7 @@ This component uses slot to the content you want to collapse. Like this:
 
 ```vue
 <vue3-collapse v-model="open">
-    <component-to-collapse />
+    <content-to-collapse />
 </vue3-collapse>
 ```
 
